@@ -1,0 +1,2 @@
+satrain==1.2.1
+lightning>=2.5,<3

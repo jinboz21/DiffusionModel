@@ -1,0 +1,14 @@
+{
+    "repository":  "https://github.com/ipwgml/satrain",
+    "commit":  "1b0f40676724e1bb00cc9b32f621e9e0fcc1522e",
+    "version":  "v1.2.1",
+    "notebook_path":  "docs/notebooks/pytorch/convolutional_neural_network.ipynb",
+    "code_cells":  [
+                       12,
+                       13,
+                       15
+                   ],
+    "notebook_sha256":  "C66EAEE4D62D01B25BAAC3B8E13B526749A2553FA910B82887770CD42064287B",
+    "model_sha256":  "0E1DD2D0AF44FF7B8B7C0BD19A427E7BFE4647184C497837C7B14B8D0C4CB543",
+    "modifications":  "Only a source/license comment header and blank lines between original cells; class code is unchanged."
+}

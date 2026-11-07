@@ -1,0 +1,35 @@
+# Local environments and editor files
+/.venv*/
+/.cache/
+/.vscode/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+
+# Downloaded observations, model weights, and generated experiments
+/data/
+/test_data/
+/experiments/
+/cnn_official/runs/
+*.nc
+*.ckpt
+*.pt
+*.pth
+*.tmp
+*.zip
+
+# This notebook contains machine-specific paths and saved outputs.
+/cnn_official/convolutional_neural_network_local.ipynb
+
+# Separate, unrelated projects in this workspace
+/ClimateDiffuse/
+/edm/
+/scripts/
+/ERA5_LAND_DOWNSCALING.md
+/requirements-downscaling.txt
+
+# Local credentials
+/.env
+/.env.*
+*.pem
+*.key
