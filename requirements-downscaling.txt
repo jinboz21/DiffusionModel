@@ -1,0 +1,9 @@
+cdsapi
+matplotlib
+netCDF4
+numpy
+requests
+scipy
+setuptools
+torch
+xarray

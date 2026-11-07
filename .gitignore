@@ -24,9 +24,6 @@
 # Separate, unrelated projects in this workspace
 /ClimateDiffuse/
 /edm/
-/scripts/
-/ERA5_LAND_DOWNSCALING.md
-/requirements-downscaling.txt
 
 # Local credentials
 /.env

@@ -2,6 +2,8 @@
 
 本目录保存一项**独立于 SatRain 降水反演**的 ERA5-Land 2 米气温降尺度实验结果。输入为低分辨率气温场，参考为高分辨率 ERA5-Land 气温场。EDM diffusion 与 conditional flow matching 均在相同的 200 个测试样本（`sample_2200` 至 `sample_2399`）上评估；数据按时间顺序分为 2,000 个训练、200 个验证和 200 个测试样本。
 
+模型、训练和评估源码见 [`scripts/`](../../scripts/)；所需 EDM 网络代码见 [`vendor/edm/`](../../vendor/edm/)；运行步骤见 [`ERA5_LAND_DOWNSCALING.md`](../../ERA5_LAND_DOWNSCALING.md)。
+
 | 方法 | 平均 MSE (K²) ↓ | 平均 PSNR (dB) ↑ | 平均 SSIM ↑ | 采样步数 |
 | --- | ---: | ---: | ---: | ---: |
 | 上采样低分辨率输入 | 1.7216 | 35.5182 | 0.9009 | — |
