@@ -1,6 +1,6 @@
 # SatRain precipitation retrieval baselines
 
-SatRain GMI 降水反演的可复现代码与韩国测试集基线结果。当前仓库包含 SatRain 官方 CNN/U-Net 示例的模型代码、本地运行入口、GPROF-NN V8 预训练模型的 SatRain 适配脚本，以及两者在共同像素上的比较。仓库还收录一项独立的 ERA5-Land 温度降尺度实验的 diffusion（EDM）和 flow matching **代码与评估结果**。SatRain 降水反演中的 VLM 与 conditional flow matching 仍是后续研究计划，**目前没有实现或结果**。
+SatRain GMI 降水反演的可复现代码与韩国测试集基线结果。当前仓库包含 SatRain 官方 CNN/U-Net 示例的模型代码、本地运行入口、GPROF-NN V8 预训练模型的 SatRain 适配脚本，以及两者在共同像素上的比较。仓库还收录一项独立的 ERA5-Land 温度降尺度实验的 diffusion（EDM）和 flow matching **代码与评估结果**。
 
 ## 当前结果
 
